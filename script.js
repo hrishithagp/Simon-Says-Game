@@ -83,6 +83,7 @@ for(btn of allBtns){
     btn.addEventListener("click",btnPress);
 }
 
+//to restart game
 function reset(){
     started = false;
     gameSeq = [];
